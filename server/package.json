@@ -1,0 +1,20 @@
+{
+  "name": "faker-graphql",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "docker:build": "docker build . -t biswa-rout/apollo-demo-server",
+    "docker:run": "docker run -p 4000:8080 -d biswa-rout/apollo-demo-server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "casual": "^1.6.2",
+    "graphql": "^16.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

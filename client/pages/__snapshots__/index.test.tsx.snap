@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should render the heading 1`] = `
+<PageContainer>
+  <Heading__PageHeading
+    data-testid="heading"
+  >
+    Registered Users
+  </Heading__PageHeading>
+  <Grid>
+    <Loader />
+  </Grid>
+</PageContainer>
+`;

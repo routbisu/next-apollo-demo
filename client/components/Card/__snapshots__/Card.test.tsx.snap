@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card component should render the card correctly 1`] = `
+<Cardstyles__CardWrapper>
+  <Cardstyles__CardContent>
+    <Cardstyles__UserName
+      data-testid="name"
+    >
+      James Bond
+    </Cardstyles__UserName>
+    <div>
+      <Cardstyles__UserPhone
+        data-testid="phone"
+        href="tel:1234567890"
+      >
+        1234567890
+      </Cardstyles__UserPhone>
+    </div>
+    <div>
+      <Cardstyles__UserEmail
+        data-testid="email"
+        href="mailto:james.bond@gmail.com"
+      >
+        james.bond@gmail.com
+      </Cardstyles__UserEmail>
+       
+    </div>
+    <Cardstyles__UserAddress
+      data-testid="address"
+    >
+      30 Wellington Square, Chelsea
+    </Cardstyles__UserAddress>
+  </Cardstyles__CardContent>
+</Cardstyles__CardWrapper>
+`;
